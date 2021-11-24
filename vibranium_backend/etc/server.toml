@@ -1,0 +1,21 @@
+listen_addr = "172.26.15.180:8082"
+game_server_addr = "35.170.97.97:9000"
+log_path = "./log/vibranium.log"
+ip_white_list = []
+ratelimit = 30
+
+#[tls]
+#cert_file = "./etc/reloot.io.pem"
+#key_file = "./etc/reloot.io.key"
+
+[vbn_account]
+appkey = "vibranium_vbn"
+secretkey = "0840f0d1c978ad7a183c1c108b0ff4e3"
+password = "vibranium123"
+keystore = "./etc/vbn_acount.json"
+
+[dkmt_account]
+appkey = "vibranium_dkmt"
+secretkey = "7bfdc49e322aa93dca184d5ee30306b7"
+password = "vibranium123"
+keystore = "./etc/dkmt_account.json"
